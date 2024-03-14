@@ -48,7 +48,7 @@ pipeline {
     post {
         success {
             // Cleanup steps, if any
-            emailext body: 'Verifying message', subject: 'Transmission message', to: 'asmigarg903@gmail.com'
+            emailext body: 'Verifying message', subject: 'Transmission message', to: 'asmigarg903@gmail.com', attachLog:true
         }
     }
 }
