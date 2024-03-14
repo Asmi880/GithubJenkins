@@ -42,6 +42,7 @@ pipeline {
             steps {
                 echo 'Deploying the application to a production server (e.g., AWS EC2 instance)...'
                 echo 'Preferred deployment tool: Jenkins Pipeline (with AWS CodeDeploy plugin)'
+                echo "Updating jenkins script"
             }
         }
     }
